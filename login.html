@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f7f7f7;
+        }
+
+        .login-box {
+            background-color: #F1E7BA; 
+            padding: 30px;            
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            width: 350px;
+            box-sizing: border-box;
+            text-align: center;}
+
+        .login-box label {
+            text-align: left;
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+            color: white; }
+
+        .login-box input[type="text"],
+        .login-box input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #cbcaca;
+            box-sizing: border-box; }
+
+        .login-box button {
+            width: 100%;
+            padding: 10px;
+            background-color: #E84420;
+            border: none;
+            border-radius: 5px;
+            color: white;
+            font-size: 16px;        }
+        .login-box button:hover { 
+            background-color: #cc3b1a;  }
+    </style>
+</head>
+<body>
+    <div class="login-box">
+        <label for="username">Enter Username:</label>
+        <input type="text"  placeholder="Enter email ID">
+
+        <label for="password">Enter Password:</label>
+        <input type="password"  placeholder="Password here" required>
+
+        <button type="submit">Login</button>
+    </div>
+
+</body>
+</html>

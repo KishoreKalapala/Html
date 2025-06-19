@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Profile</title>
+</head>
+<body>
+        <h1 align="center" >Create Profile</h1>
+        <table align="center">
+    
+        <form action="#">
+  <tr>
+     <td><label >First name:</label></td>
+    <td><input type="text"  placeholder="First name" required></td> </tr>
+
+    <tr>
+        <td>
+    <label >last name:</label></td>
+     <td><input type="text"  placeholder="last name" required></td> </tr>
+
+   <tr> 
+    <td><label for="dob">Date of Birth:</label></td>
+    <td> <input type="date" name="dob" required></td> </tr>
+
+   <tr>
+    <td><label for="age">Enter Age:</label></td>
+        <td><input type="number"   placeholder="Age" required></td> </tr>
+     
+    <tr>
+        <td><label id="gender">Gender:    </label></td>
+       <td> <input type="radio" name="gender" checked>male 
+        <input type="radio" name="gender" >female</td> </tr>
+            
+     <tr> 
+        <td><label for="currentAddress">Current Address:</label></td>
+        <td> <textarea id="currentAddress"  rows="4" placeholder="Current Address" required></textarea> </td></tr>
+     <tr>
+        <td><label for="permanentAddress">Permanent Address:</label></td>
+         <td><textarea id="permanentAddress"  rows="4" placeholder="Permanent Address" required></textarea></td></tr>
+ 
+         <tr ><td colspan="2" align="center" ><button type="submit">Create</button></td></tr>
+   </form>
+</table>
+</body>
+</html>

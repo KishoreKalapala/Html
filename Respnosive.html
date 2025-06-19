@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Image</title>
+</head>
+<style>
+   .image-container {
+    text-align: center;
+    margin: 20px;}
+
+.responsive-image {
+    max-width: 100%;
+    height: auto;}
+@media screen and (max-width: 700px) {
+    .responsive-image {
+        content: url('https://w0.peakpx.com/wallpaper/990/176/HD-wallpaper-marvel-s-moon-knight.jpg');
+    }
+}
+</style>
+<body>
+    <div class="image-container">
+        <img src="https://w0.peakpx.com/wallpaper/282/865/HD-wallpaper-black-panther-marvel.jpg"  height="400px" width="600px" class="responsive-image" id="mainImage">
+    </div>
+</body>
+</html>
